@@ -1,1 +1,19 @@
-http1.1 vs http2
+Difference between HTTP1.1 vs HTTP2
+
+HTTP1.1
+
+    *  From the release of HTTP/1.1 in 1997
+    *  It works on the textual format.
+    *  It has 3 transmition control protocol connection 
+    *  It uses requests resource Inlining for use getting multiple pages
+    *  It compresses data by itself
+    *  HTTP/1.1 transfer all the requests & responses in the plain text message form
+
+HTTP2    
+
+    * HTTP2 reimagined version in 2015 
+    * It works on the binary protocol.
+    * It has 1 transmition control protocol connection 
+    * It uses PUSH frame by server that collects all multiple pages 
+    * It uses HPACK for data compression.
+    * The server sends all the other files like CSS & JS without the request of the client using the PUSH frame.
