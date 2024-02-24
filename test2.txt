@@ -1,0 +1,13 @@
+javascript objects and internal representation
+
+   * An object in javascript is a collection of properties. And those properties are association of key and values.
+   * In javascript. Objects , data types such as numbers, strings, and booleans are distinct from primitive datatypes.
+   * Primitive data types which can only contain one value, objects can contain multiple values in the form of key-value pairs. 
+   * 
+   * for example
+   * let person= {
+        firstname:"mani"
+        lastname:"kandan"
+      };
+   * corresponding value (or) op = manikandan
+    
